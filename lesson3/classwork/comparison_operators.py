@@ -19,4 +19,5 @@ print(x > y)
 print("apple" == "apple")
 print("Apple" == "apple") # A != B
 print("Apple" != "banana")
-print("cat" > "bat") # Compared Alphabetically
+print("cat" > "bat") # Compared alphabetically
+print("dog" < "zebra") # Compared alphabetically
