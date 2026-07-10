@@ -13,6 +13,17 @@ print("Weather check complete!")
 
 day = input("What day of the week is it: ")
 
+if day == "monday":
+    print("Ugh, it's Monday")
+elif day == "friday":
+    print("Yay, it's almost the weekend")
+elif day == "saturday":
+    print("It's the weekend")
+elif day == "sunday":
+    print("It's the weekend")
+else: #  tuesday wednesday thursday 
+    print("Just a regular weekday")
+
 score = int(input("What is your score out of 100: "))
 
 if score >= 60:
